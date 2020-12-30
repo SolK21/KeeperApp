@@ -19,11 +19,15 @@ header {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
+
 header h1 {
   color: #fff;
   font-family: "McLaren", cursive;
   font-weight: 200;
+  text-align: center;
 }
+
+
 
 footer {
   position: absolute;
@@ -35,6 +39,10 @@ footer {
 
 footer p {
   color: #ccc;
+}
+
+.btn-add{
+  text-align: right;
 }
 .note {
   background: #fff;
@@ -101,3 +109,12 @@ form.create-note button {
   cursor: pointer;
   outline: none;
 }
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+

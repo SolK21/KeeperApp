@@ -1,12 +1,13 @@
 {
   "name": "using-pre-built-react-components",
   "version": "1.0.0",
-  "description": "",
+  "description": "Keeper App",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/icons": "^4.11.2",
+    "express": "^4.17.1",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-scripts": "3.2.0"
@@ -25,5 +26,15 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolK21/KeeperApp.git"
+  },
+  "author": "Konstantinos Solakis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SolK21/KeeperApp/issues"
+  },
+  "homepage": "https://github.com/SolK21/KeeperApp#readme"
 }

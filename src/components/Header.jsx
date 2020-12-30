@@ -1,10 +1,24 @@
 import React from "react";
 import NoteAddIcon from '@material-ui/icons/NoteAdd';
+import AddButton from "./AddButton";
 
 function Header() {
+  const date = new Date();
+  let today = date.toLocaleDateString();
+  
+
   return (
     <header>
-      <h1><NoteAddIcon />Keeper</h1>
+      <div>
+        <h1>
+          <div className="left">
+            <NoteAddIcon />Keeper
+          </div>
+          
+          {today}
+          <AddButton />
+        </h1>
+      </div>
     </header>
   );
 }
