@@ -27,6 +27,24 @@ header h1 {
   text-align: center;
 }
 
+header div.list-btn {
+    float: right;
+    font-size: large;
+}
+
+.list-btn input {
+    background-color: #f5ba13;
+    width: 125px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: hidden;  
+    color: #fff; 
+}
+
+.list-btn input::placeholder{
+    color: #fff;
+}
+
 
 
 footer {

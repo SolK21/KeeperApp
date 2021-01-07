@@ -13,7 +13,6 @@ function Header() {
             <NoteAddIcon />Keeper
           </div>
           <Title />
-          <AddButton />
         </h1>
       </div>
     </header>

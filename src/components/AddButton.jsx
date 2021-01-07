@@ -1,12 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 
-function AddButton(){
+function AddButton(props){
     return(
-        <div className="right">
-            <button type="button" class="btn btn-sm btn-outline-light">
-                Add New List
-            </button>
+        <div class="list-btn">
+            <input 
+                onChange={props.onChange} 
+                type="text" 
+                placeholder="Add New List" 
+                name="list" 
+                // value={props.value}  
+                />
         </div>
+
         
     );  
 };
