@@ -5,21 +5,21 @@ function Title(){
     const date = new Date();
     let today = date.toLocaleDateString();
 
-    const [newList, setList] = useState(today);
+    const [newList, setList] = useState("");;
 
     
-    function setTitle(e){
-        setTitle(e.value)
+    function addNewTitle(title){
+        setList(title);
     }
+
 
     return(
         <div>
             <text>
-                {newList}
+                {newList==""? today: newList }
             </text>
             <AddButton 
-                onChange={(e) => setTitle(e)}
-                value={newList == today? "": newList}
+                addTitle={addNewTitle}
             />
         </div>
 
